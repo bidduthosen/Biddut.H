@@ -207,3 +207,26 @@ h4{
     line-height: 26px;
     padding: 8px 0;
 }
+
+
+
+/* footer section */
+
+.footer-section{
+    margin-top: 160px;
+    padding: 0 90px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content > h5{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+.social-links > a{
+    padding: 12px;
+}
