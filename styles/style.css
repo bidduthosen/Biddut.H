@@ -4,12 +4,30 @@
     box-sizing: border-box;
 }
 
+.section-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.section-discription{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+
+
+
+
 /* nav section style */
 .header-container{
     margin-top: 30px;
 }
 .container{
-    width: 1196px;
+    width: 1140px;
     margin: 0 auto ;
 
 }
@@ -77,4 +95,48 @@ p{
     color: white;
     border: none;
     margin-top: 20px;
+}
+
+
+
+/* Why Web Development  style */
+
+.web-development-section{
+    margin-top: 160px;
+    padding: 0 90px;
+    
+}
+
+.change-the-world{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+}
+.change-content > h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.change-dis{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.change-content > button {
+    color: rgb(13, 19, 33);
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    padding: 12px 20px;
+    border: 1px solid rgba(13, 19, 33, 0.7);
+    margin-top: 30px;
+}
+
+.change-img{
+    height: 217px;
 }
