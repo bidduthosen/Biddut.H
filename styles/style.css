@@ -209,11 +209,56 @@ h4{
 }
 
 
+/* I need Support */
 
+.support-container{
+    margin-top: 120px;
+    padding: 0 90px;
+}
+.support-section{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url(../assets/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 313px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.support-content > h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.support-discription{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 16px 0 24px 0;
+}
+
+.cmnt-field > input{
+    padding: 20px;
+    width: 440px;
+    border: none;
+    border-radius: 10px;
+}
+.cmnt-field > button{
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
 /* footer section */
 
 .footer-section{
-    margin-top: 160px;
+    margin-top: 100px;
     padding: 0 90px;
 }
 .footer-content{
