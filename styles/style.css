@@ -59,7 +59,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 570px;
+    height: 580px;
     margin-top: 36px;
     display: flex;
     justify-content: center;
@@ -120,14 +120,15 @@ p{
     line-height: 36px;
 }
 .change-dis{
-    color: rgb(13, 19, 33);
+    color: rgba(13, 19, 33, 0.7);
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    margin-top: 16px;
 }
 
 .change-content > button {
-    color: rgb(13, 19, 33);
+    color: rgba(13, 19, 33, 0.7);
     background-color: transparent;
     font-size: 20px;
     font-weight: 600;
