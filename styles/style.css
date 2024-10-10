@@ -141,3 +141,16 @@ p{
 .change-img{
     height: 217px;
 }
+
+
+/* my-inspiration-section style */
+.my-inspiration-section{
+    margin-top: 160px;
+    padding: 0 90px;
+}
+.inspiration-ytContent iframe{
+    width: 100%;
+    height: 550px;
+    border-radius: 18px;
+    margin-top: 70px;
+}
