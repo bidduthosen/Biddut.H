@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav section style */
+
+.header-container{
+    width: 1196px;
+    margin: 25px auto 0;
+
+}
+.header-container > nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-title{
+    font-size: 28px;
+    font-weight: 800;
+}
+.resume-btn{
+    padding: 17px 24px;
+    border-radius: 8px;
+    opacity: 0.9;
+    font-size: 20px;
+    font-weight: 600px;
+    background-color: transparent;
+    border: 1px solid rgb(13, 19, 33);
+}
